@@ -1,0 +1,28 @@
+.lotto {
+  display: inline-block;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /*background: #ffffff;*/
+  border: 3px solid gray;
+  margin: 30px;
+  line-height: 50px;
+}
+
+.getNumbersBtn {
+  padding: 20px;
+  display: block;
+  cursor: pointer;
+  background-color: transparent;
+  margin-left: 550px;
+  align-self: center;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.getNumbersBtn:hover {
+  color: #004900;
+  font-weight: bold;
+}

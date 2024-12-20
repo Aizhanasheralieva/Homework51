@@ -1,4 +1,5 @@
 import React from 'react';
+import './LottoBall.css';
 
 interface Props  {
   number: number;

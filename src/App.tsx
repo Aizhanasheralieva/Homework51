@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import LottoBall from './components/LottoBall/LottoBall.tsx';
+import './App.css';
 
 
 const App = () => {
@@ -26,7 +27,7 @@ const App = () => {
         <LottoBall number={numbers[3]} />
         <LottoBall number={numbers[4]} />
       </>
-      <button  onClick={switchNumbersArray}>Get new numbers</button>
+      <button className="getNumbersBtn" onClick={switchNumbersArray}>Get new numbers</button>
     </>
   );
 };
